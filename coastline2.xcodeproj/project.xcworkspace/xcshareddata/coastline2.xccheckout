@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C55F7695-C0C8-4599-8E69-37ED87028678</string>
+	<key>IDESourceControlProjectName</key>
+	<string>coastline2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E4311402-86A4-452E-A50A-496ABA977AE4</key>
+		<string>http://www.svnchina.com/svn/coastline2</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>coastline2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E4311402-86A4-452E-A50A-496ABA977AE4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>E4311402-86A4-452E-A50A-496ABA977AE4</key>
+		<string>http://www.svnchina.com/svn/coastline2</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://www.svnchina.com/svn/coastline2/coastline2.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E4311402-86A4-452E-A50A-496ABA977AE4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E4311402-86A4-452E-A50A-496ABA977AE4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>coastline2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
