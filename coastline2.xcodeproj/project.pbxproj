@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C0C13E918F999FF004EFCDD /* NSArray+Logical.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C13E818F999FF004EFCDD /* NSArray+Logical.m */; };
+		6C0C141D18FD57ED004EFCDD /* UIResponder+Enum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C141C18FD57ED004EFCDD /* UIResponder+Enum.m */; };
 		6C3DF249188D4BD400C11C1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3DF248188D4BD400C11C1C /* Foundation.framework */; };
 		6C3DF24E188D4BD400C11C1C /* coastline2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C3DF24D188D4BD400C11C1C /* coastline2.h */; };
 		6C3DF250188D4BD400C11C1C /* coastline2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DF24F188D4BD400C11C1C /* coastline2.m */; };
@@ -120,6 +122,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C0C13E718F999FF004EFCDD /* NSArray+Logical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Logical.h"; sourceTree = "<group>"; };
+		6C0C13E818F999FF004EFCDD /* NSArray+Logical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Logical.m"; sourceTree = "<group>"; };
+		6C0C141B18FD57ED004EFCDD /* UIResponder+Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Enum.h"; sourceTree = "<group>"; };
+		6C0C141C18FD57ED004EFCDD /* UIResponder+Enum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Enum.m"; sourceTree = "<group>"; };
 		6C3DF245188D4BD400C11C1C /* libcoastline2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcoastline2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3DF248188D4BD400C11C1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6C3DF24C188D4BD400C11C1C /* coastline2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coastline2-Prefix.pch"; sourceTree = "<group>"; };
@@ -371,6 +377,8 @@
 				6C6AE55F18AE140100A33470 /* CLDateField.m */,
 				6C3DF2F61890AD5100C11C1C /* CLInterface.h */,
 				6C3DF2F71890AD5100C11C1C /* CLInterface.m */,
+				6C0C141B18FD57ED004EFCDD /* UIResponder+Enum.h */,
+				6C0C141C18FD57ED004EFCDD /* UIResponder+Enum.m */,
 				6CD916FA18A4C56E00FAA854 /* CLNumberParagraph.h */,
 				6CD916FB18A4C56E00FAA854 /* CLNumberParagraph.m */,
 				6C3DF3131890BECF00C11C1C /* CLScrollView.h */,
@@ -404,6 +412,8 @@
 				6C3DF2D11890A32B00C11C1C /* NSFileManager+Finder.m */,
 				6CFBB5681897A8230043095F /* NSMutableArray+Fast.h */,
 				6CFBB5691897A8230043095F /* NSMutableArray+Fast.m */,
+				6C0C13E718F999FF004EFCDD /* NSArray+Logical.h */,
+				6C0C13E818F999FF004EFCDD /* NSArray+Logical.m */,
 				6C62018A1893C18B0057F90E /* NSNull+Safe.h */,
 				6C62018B1893C18B0057F90E /* NSNull+Safe.m */,
 				6CD916F118A4B9C700FAA854 /* NSObject+Block.h */,
@@ -686,11 +696,13 @@
 				6C3DF273188D4C9900C11C1C /* CLContext.m in Sources */,
 				6CD916F018A4B91000FAA854 /* UIAlertView+Block.m in Sources */,
 				6CBC92DA18E7B0250023EDB8 /* Underscore.m in Sources */,
+				6C0C13E918F999FF004EFCDD /* NSArray+Logical.m in Sources */,
 				6CFBB52B189787FC0043095F /* CLViewController.m in Sources */,
 				6C3DF2F21890AD3900C11C1C /* AFURLConnectionOperation.m in Sources */,
 				6C3DF30C1890B18B00C11C1C /* AFNetworkActivityIndicatorManager.m in Sources */,
 				6C3DF2ED1890AD3900C11C1C /* AFHTTPRequestOperation.m in Sources */,
 				6C62016D189359300057F90E /* CLTimer.m in Sources */,
+				6C0C141D18FD57ED004EFCDD /* UIResponder+Enum.m in Sources */,
 				6C3DF2EF1890AD3900C11C1C /* AFHTTPSessionManager.m in Sources */,
 				6C8633A118D2F6D8004760D5 /* SBJsonWriter.m in Sources */,
 				6C620170189381270057F90E /* CLText.m in Sources */,

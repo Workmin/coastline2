@@ -117,7 +117,7 @@
     NSURLSessionDataTask* task = [_sessionManager GET:url
                                            parameters:parameters
                                               success:^(NSURLSessionDataTask *task, id responseObject) {
-                                                  NSLog(@"response type:%@", NSStringFromClass([responseObject class]));
+                                                  NSLog(@"response : %@", responseObject);
                                                   if (response) {
                                                       response(responseObject, nil);
                                                   }

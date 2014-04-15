@@ -65,6 +65,8 @@
 #import "UIDevice+Sound.h"
 #import "NSString+Uni.h"
 #import "../UIKit+AFNetworking/UIImageView+AFNetworking.h"
+#import "NSArray+Logical.h"
+#import "UIResponder+Enum.h"
 
 
 
