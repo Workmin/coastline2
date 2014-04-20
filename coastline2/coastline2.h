@@ -67,6 +67,7 @@
 #import "../UIKit+AFNetworking/UIImageView+AFNetworking.h"
 #import "NSArray+Logical.h"
 #import "UIResponder+Enum.h"
+#import "UINavigationController+Pop.h"
 
 
 

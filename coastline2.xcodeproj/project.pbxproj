@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6C0C13E918F999FF004EFCDD /* NSArray+Logical.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C13E818F999FF004EFCDD /* NSArray+Logical.m */; };
 		6C0C141D18FD57ED004EFCDD /* UIResponder+Enum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C141C18FD57ED004EFCDD /* UIResponder+Enum.m */; };
+		6C0C145718FFA011004EFCDD /* UINavigationController+Pop.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C145618FFA011004EFCDD /* UINavigationController+Pop.m */; };
 		6C3DF249188D4BD400C11C1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3DF248188D4BD400C11C1C /* Foundation.framework */; };
 		6C3DF24E188D4BD400C11C1C /* coastline2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C3DF24D188D4BD400C11C1C /* coastline2.h */; };
 		6C3DF250188D4BD400C11C1C /* coastline2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DF24F188D4BD400C11C1C /* coastline2.m */; };
@@ -126,6 +127,8 @@
 		6C0C13E818F999FF004EFCDD /* NSArray+Logical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Logical.m"; sourceTree = "<group>"; };
 		6C0C141B18FD57ED004EFCDD /* UIResponder+Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Enum.h"; sourceTree = "<group>"; };
 		6C0C141C18FD57ED004EFCDD /* UIResponder+Enum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Enum.m"; sourceTree = "<group>"; };
+		6C0C145518FFA011004EFCDD /* UINavigationController+Pop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Pop.h"; sourceTree = "<group>"; };
+		6C0C145618FFA011004EFCDD /* UINavigationController+Pop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Pop.m"; sourceTree = "<group>"; };
 		6C3DF245188D4BD400C11C1C /* libcoastline2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcoastline2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3DF248188D4BD400C11C1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6C3DF24C188D4BD400C11C1C /* coastline2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coastline2-Prefix.pch"; sourceTree = "<group>"; };
@@ -467,6 +470,8 @@
 				6CD916F518A4BAB400FAA854 /* UIViewController+Block.m */,
 				6C6201741893AAB40057F90E /* UIViewController+Screen.h */,
 				6C6201751893AAB40057F90E /* UIViewController+Screen.m */,
+				6C0C145518FFA011004EFCDD /* UINavigationController+Pop.h */,
+				6C0C145618FFA011004EFCDD /* UINavigationController+Pop.m */,
 				6CBC934318E96B340023EDB8 /* NSString+Uni.h */,
 				6CBC934418E96B340023EDB8 /* NSString+Uni.m */,
 			);
@@ -723,6 +728,7 @@
 				6C3DF2EE1890AD3900C11C1C /* AFHTTPRequestOperationManager.m in Sources */,
 				6C3DF250188D4BD400C11C1C /* coastline2.m in Sources */,
 				6C6AE56318AE15D600A33470 /* NSString+Symbol.m in Sources */,
+				6C0C145718FFA011004EFCDD /* UINavigationController+Pop.m in Sources */,
 				6C6201921893EA350057F90E /* NSDate+Part.m in Sources */,
 				6C3DF30F1890B18B00C11C1C /* UIButton+AFNetworking.m in Sources */,
 				6CFBB56A1897A8230043095F /* NSMutableArray+Fast.m in Sources */,
@@ -866,9 +872,11 @@
 				DSTROOT = /tmp/coastline2.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "coastline2/coastline2-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -878,9 +886,11 @@
 				DSTROOT = /tmp/coastline2.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "coastline2/coastline2-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};

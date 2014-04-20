@@ -12,4 +12,6 @@
 
 -(BOOL) include:(id)object;
 
+-(id) objectAtReservedIndex:(unsigned int)index;
+
 @end

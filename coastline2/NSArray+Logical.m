@@ -19,4 +19,13 @@
     return NO;
 }
 
+-(id) objectAtReservedIndex:(unsigned int)index {
+    int newIndex = self.count-(int)index;
+    if (newIndex < 0) {
+        return nil;
+    }
+    
+    return [self objectAtIndex:newIndex];
+}
+
 @end
